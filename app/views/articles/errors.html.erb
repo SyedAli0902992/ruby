@@ -1,0 +1,6 @@
+ <h1>Could not save articles due to following errors</h1>
+  <ul>
+    <% @article.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
