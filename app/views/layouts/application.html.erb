@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <title>RubyOnRailsPractiseApp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -16,4 +17,26 @@
   <% end %>
     <%= yield %>
   </body>
+=======
+<head>
+  <title>RubyOnRailsPractiseApp</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <script src="https://unpkg.com/jquery@3.6.3/dist/jquery.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/bootstrap@5.2.3/dist/js/bootstrap.bundle.js" type="text/javascript"></script>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= stylesheet_link_tag "custom", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
+</head>
+
+<body>
+
+  <%= render 'layouts/navigation' %>
+<% flash.each do |name, message| %>
+  <%= message %>
+<% end %>
+<%= yield %>
+</body>
+>>>>>>> 1df4e09 (configured bootstrap and built skeleton home page)
 </html>

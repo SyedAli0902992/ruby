@@ -6,7 +6,11 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module RubyOnRailsPractiseApp
+=======
+module RailsProject
+>>>>>>> 1df4e09 (configured bootstrap and built skeleton home page)
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0

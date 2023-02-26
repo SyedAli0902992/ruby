@@ -15,8 +15,13 @@ gem "sqlite3", "~> 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
+<<<<<<< HEAD
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
+=======
+# Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
+gem "jsbundling-rails"
+>>>>>>> 1df4e09 (configured bootstrap and built skeleton home page)
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -24,6 +29,12 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
+<<<<<<< HEAD
+=======
+# Bundle and process CSS [https://github.com/rails/cssbundling-rails]
+gem "cssbundling-rails"
+
+>>>>>>> 1df4e09 (configured bootstrap and built skeleton home page)
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
@@ -42,10 +53,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+<<<<<<< HEAD
 gem 'byebug', '~> 9.0', '>= 9.0.6'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+=======
+# Use Sass to process CSS
+ gem "sassc-rails"
+>>>>>>> 1df4e09 (configured bootstrap and built skeleton home page)
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
